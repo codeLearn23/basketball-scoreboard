@@ -1,0 +1,118 @@
+body {
+    margin: 0 auto;
+}
+
+
+.container {
+    position: relative;
+    margin: 20px auto;
+    //outline: 1px solid red;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+#home-score, #guest-score {
+    color: #F94F6D;
+    font-size: 90px;
+    padding-top: 15px;
+}
+
+#home-board, #guest-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    min-width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+}
+
+button, #home-score, #guest-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    /* see comment in index.html ---- font-family: "overtime-lcd-pro", sans-serif; */ 
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 155px;
+    height: 45px;
+    gap: 9px;
+}
+
+.btn-add {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    background-color: transparent;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity .3s;
+    
+}
+
+.btn-add:hover {
+    opacity: .7;
+    width: 47px;
+    height: 47px;
+    box-shadow: 0px 0px 2px white;
+    
+}
+.btn-add:active {
+    color: white;
+    font-weight: bold;
+    background-color: #094060;
+}
+
+.btn-add:disabled {
+    opacity: .2;
+}
+
+#btn-new-game {
+    position: absolute;
+    bottom: 10px;
+    width: 100px;
+    height: 50px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 5px #F59E0B;
+    background-color: #BE123C;
+    color: #F59E0B;
+    transition: background-color .5s, border .1s;
+}
+
+#btn-new-game:hover {
+    background-color: transparent;
+    border: 3px solid #9AABD8;
+}
+
