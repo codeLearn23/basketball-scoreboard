@@ -1,7 +1,8 @@
 let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 let newGame = document.getElementById("btn-new-game");
-let addButton = document.querySelectorAll(".btn-add");
+// let addButton = document.querySelectorAll(".btn-add");
+let addButton = document.querySelector(".btn-add");
 
 let homeCount = 0;
 let guestCount = 0;
@@ -24,11 +25,19 @@ function refreshAddButtons() {
     addButton.forEach(button => button.disabled = false);
 }
 
+const homeAddOne = addButton.addEventListener("click", () => {
+    homeCount += 1;
+    homeScore.textContent = homeCount;
+    showNewGame();
+})
+
+/*
 function homeAddOne() {
     homeCount += 1;
     homeScore.textContent = homeCount;  
     showNewGame();
 }
+*/
 
 function homeAddTwo() {
     homeCount += 2;
@@ -41,6 +50,7 @@ function homeAddThree() {
     homeScore.textContent = homeCount;
     showNewGame();
 }
+
 
 function guestAddOne() {
     guestCount += 1;
