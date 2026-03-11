@@ -39,17 +39,33 @@ function homeAddOne() {
 }
 */
 
+const homeAddTwo = addButton.addEventListener("click", () => {
+    homeCount += 2;
+    homeScore.textContent = homeCount;
+    showNewGame();
+})
+
+/*
 function homeAddTwo() {
     homeCount += 2;
     homeScore.textContent = homeCount;
     showNewGame();
 }
+*/
 
+const homeAddThree = addButton.addEventListener("click", () => {
+    homeCount += 3;
+    homeScore.textContent = homeCount;
+    showNewGame();
+})
+
+/*
 function homeAddThree() {
     homeCount += 3;
     homeScore.textContent = homeCount;
     showNewGame();
 }
+*/
 
 
 function guestAddOne() {
