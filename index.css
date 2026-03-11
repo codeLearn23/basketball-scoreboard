@@ -64,13 +64,13 @@ button, #home-score, #guest-score {
     height: 45px;
     gap: 9px;
 }
-
+/*
 #home-add-one,
 #home-add-two,
 #home-add-three,
 #guest-add-one,
 #guest-add-two,
-#guest-add-three,
+#guest-add-three, */
 .btn-add {
     border: 2px solid #9AABD8;
     border-radius: 5px;
