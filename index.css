@@ -6,7 +6,7 @@ body {
 .container {
     position: relative;
     margin: 20px auto;
-    //outline: 1px solid red;
+    /* outline: 1px solid red; */
     background-color: #1B244A;
     width: 575px;
     height: 385px;
