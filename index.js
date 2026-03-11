@@ -2,7 +2,10 @@ let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 let newGame = document.getElementById("btn-new-game");
 // let addButton = document.querySelectorAll(".btn-add");
-let addButton = document.querySelector(".btn-add");
+//let addButton = document.querySelector(".btn-add");
+let homeButtonOne = document.getElementById("home-add-one");
+let homeButtonTwo = document.getElementById("home-add-two");
+let homeButtonThree = document.getElementById("home-add-three");
 
 let homeCount = 0;
 let guestCount = 0;
@@ -25,7 +28,7 @@ function refreshAddButtons() {
     addButton.forEach(button => button.disabled = false);
 }
 
-const homeAddOne = addButton.addEventListener("click", () => {
+const homeAddOne = homeButtonOne.addEventListener("click", () => {
     homeCount += 1;
     homeScore.textContent = homeCount;
     showNewGame();
@@ -39,7 +42,7 @@ function homeAddOne() {
 }
 */
 
-const homeAddTwo = addButton.addEventListener("click", () => {
+const homeAddTwo = homeButtonTwo.addEventListener("click", () => {
     homeCount += 2;
     homeScore.textContent = homeCount;
     showNewGame();
@@ -53,7 +56,7 @@ function homeAddTwo() {
 }
 */
 
-const homeAddThree = addButton.addEventListener("click", () => {
+const homeAddThree = homeButtonThree.addEventListener("click", () => {
     homeCount += 3;
     homeScore.textContent = homeCount;
     showNewGame();
