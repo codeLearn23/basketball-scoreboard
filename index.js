@@ -6,6 +6,9 @@ let newGame = document.getElementById("btn-new-game");
 let homeButtonOne = document.getElementById("home-add-one");
 let homeButtonTwo = document.getElementById("home-add-two");
 let homeButtonThree = document.getElementById("home-add-three");
+let guestButtonOne = document.getElementById("guest-add-one");
+let guestButtonTwo = document.getElementById("guest-add-two");
+let guestButtonThree = document.getElementById("guest-add-three");
 
 let homeCount = 0;
 let guestCount = 0;
@@ -70,24 +73,47 @@ function homeAddThree() {
 }
 */
 
+const guestAddOne = guestButtonOne.addEventListener("click", () => {
+    guestCount += 1;
+    guestScore.textContent = guestCount;  
+    showNewGame();
+})
 
+/*
 function guestAddOne() {
     guestCount += 1;
     guestScore.textContent = guestCount;  
     showNewGame();
 }
+*/
 
+const guestAddTwo = guestButtonTwo.addEventListener("click", () => {
+    guestCount += 2;
+    guestScore.textContent = guestCount;
+    showNewGame();
+})
+
+/*
 function guestAddTwo() {
     guestCount += 2;
     guestScore.textContent = guestCount;
     showNewGame();
 }
+*/
 
+const guestAddThree = guestButtonThree.addEventListener("click", () => {
+    guestCount += 3;
+    guestScore.textContent = guestCount;
+    showNewGame();
+})
+
+/*
 function guestAddThree() {
     guestCount += 3;
     guestScore.textContent = guestCount;
     showNewGame();
 }
+*/
 
 function startNewGame() {
     homeCount = 0;
