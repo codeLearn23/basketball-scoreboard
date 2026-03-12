@@ -1,5 +1,5 @@
 # Basketball Scoreboard Solo Project
-This project is my response to a challenge in [Scrimba's](https://scrimba.com) Fullstack Developer Path. It incorporates basic HTML, JavaScript and CSS. It's just a basic work in progress and a platform for applying some of the lessons in the preceding lessons.
+This project is my response to a challenge in [Scrimba's](https://scrimba.com) Fullstack Developer Path. It incorporates basic HTML, JavaScript and CSS. It's just a basic work in progress and a platform for applying some of the concepts from the preceding lessons.
 ```
 ```
 ## How to play:
