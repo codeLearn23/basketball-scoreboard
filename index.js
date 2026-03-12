@@ -2,7 +2,7 @@ let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 let newGame = document.getElementById("btn-new-game");
 
-// let addButton = document.querySelectorAll(".btn-add");
+let addButton = document.querySelectorAll(".btn-add");
 
 
 //let addButton = document.querySelector(".btn-add");

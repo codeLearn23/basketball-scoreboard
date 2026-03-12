@@ -81,8 +81,7 @@ button, #home-score, #guest-score {
     font-size: 18px;
     text-align: center;
     cursor: pointer;
-    transition: opacity .3s;
-    
+    transition: opacity .3s; 
 }
 
 .btn-add:hover {
