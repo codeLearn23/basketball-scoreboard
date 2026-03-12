@@ -1,7 +1,10 @@
 let homeScore = document.getElementById("home-score");
 let guestScore = document.getElementById("guest-score");
 let newGame = document.getElementById("btn-new-game");
+
 // let addButton = document.querySelectorAll(".btn-add");
+
+
 //let addButton = document.querySelector(".btn-add");
 let homeButtonOne = document.getElementById("home-add-one");
 let homeButtonTwo = document.getElementById("home-add-two");
@@ -115,6 +118,17 @@ function guestAddThree() {
 }
 */
 
+const startNewGame = newGame.addEventListener("click", () => {
+    homeCount = 0;
+    guestCount = 0;
+    homeScore.textContent = homeCount;
+    guestScore.textContent = guestCount;
+    newGame.style.visibility ="hidden";
+    refreshAddButtons();
+})
+
+
+/*
 function startNewGame() {
     homeCount = 0;
     guestCount = 0;
@@ -123,3 +137,4 @@ function startNewGame() {
     newGame.style.visibility="hidden";
     refreshAddButtons();
 }
+*/
