@@ -2,6 +2,17 @@
 
 This project is my response to a challenge in [Scrimba's](https://scrimba.com) Fullstack Developer Path. It incorporates basic HTML, JavaScript and CSS. It's a work in progress and a platform for applying some of the concepts from preceding lessons in the course.
 
+## How to start:
+
+Install dependencies and run:
+
+```
+npm install
+npm start
+```
+
+Visit [vitejs.dev](https://vitejs.dev) for more information on setting up Vite
+
 ## How to play:
 
 - Press the buttons to add points to either the Home or Guest totals.
